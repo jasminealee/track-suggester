@@ -6,14 +6,36 @@ p {
   text-align: center;
 }
 
+#name {
+  text-align: center;
+}
 button {
   text-align: center;
 }
 
 .well {
-  border: 200px;
+  border: 100px;
+  text-align: center;
+  height: 50px;
+}
+
+input {
+  width: 500px;
+  height: 20px;
 }
 
 #reason {
   text align: center;
+}
+
+body {
+  background-color: blue;
+}
+
+#dream {
+  align-self: center;
+}
+
+button {
+  align-self: center;
 }

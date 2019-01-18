@@ -9,18 +9,25 @@
   </head>
   <body>
     <div class="container">
+
         <h1>What Track Should You Decide?</h1>
       </div>
+
+  <div class="well"
+      <h1>Enter Name:</h1>
+        <input id="name">
+  </div>
 
         <h1>Question 1</h1>
         <p>What is your dream company to work for?</p>
 
         <form id="dream">
           <select id="company">
-          <option value="nordstrom">Nordstrom</option>
-          <option value="google">Google</option>
-          <option value="amazon">Amazon</option>
-          <option value="dropbox">Dropbox</option>
+            <option value="select">---Select---</option>
+            <option value="nordstrom">Nordstrom</option>
+            <option value="google">Google</option>
+            <option value="amazon">Amazon</option>
+            <option value="dropbox">Dropbox</option>
           </select>
         </form>
 
@@ -29,6 +36,7 @@
 
         <form id="working">
           <select id="end">
+            <option value="select">---Select---</option>
             <option value="yes">yes</option>
             <option value="maybe">maybe</option>
             <option value="no">no</option>
@@ -41,6 +49,7 @@
         <p>How comfortable are you with public speaking and being in large groups?</p>
         <form id="comfortable">
           <select id="loud">
+            <option value="select">--------Select--------</option>
             <option value="very comfortable">very comfortable</option>
             <option value="comfortable">comfortable</option>
             <option value="semi comfortable">semi comfortable</option>
@@ -50,19 +59,24 @@
 
         <h1>Question 4</h1>
         <p>Why do you want to code?</p>
-        <input id="reason" type="text">
-        </input>
+  <div class="well"
+          <div class="col-md-10">
+            <input id="reason" type="text">
+          </div>
+        </div>
 
         <h1>Question 5</h1>
+          <div class="well"
         <p>any questions, concerns, or suggestions?</p>
-        <input id="" type="text">
-        </input>
+        <input id="advice" type="text">
+      </div>
 
 
 
 
 
-      <button type="submit" class="btn btn-info">Submit My Answers</button>
+
+      <button type="submit" class="btn btn-info">Submit</button>
 
 
 
