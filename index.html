@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/boostrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="java-script/jquery-3.3.1.js"></script>
-    <script src="java-script/scripts.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Track Suggester</title>
   </head>
   <body>
     <div class="container">
       <h1>What Track Should You Decide?</h1>
-      <form id="questionairre">
+      <form id="questionnaire">
 
-      <div class="well">
         <h2>Enter Name:</h2>
-        <input id="name" type="text">
-      </div>
-<br>
-        <h1>Question 1</h1>
+      <input id="name" type="text">
+
+        <br>
+
+      <h1>Question 1</h1>
         <p>What is your dream company to work for?</p>
 
             <select id="company">
-              <option value="select">--Select--</option>
-              <option value="nordstrom">Nordstrom</option>
-              <option value="google">Google</option>
-              <option value="amazon">Amazon</option>
-              <option value="dropbox">Dropbox</option>
+              <option value="0">--Select--</option>
+              <option value="1">Nordstrom</option>
+              <option value="2">Google</option>
+              <option value="3">Amazon</option>
+              <option value="0">Dropbox</option>
             </select>
 
 
@@ -33,48 +33,43 @@
         <p>Are you comforable working in both the front end and back end?</p>
 
             <select id="working-end">
-              <option value="select">--Select--</option>
-              <option value="yes">yes</option>
-              <option value="maybe">maybe</option>
-              <option value="no">no</option>
-              <option value="ask me later">ask me later</option>
+              <option value="0">--Select--</option>
+              <option value="1">yes</option>
+              <option value="2">maybe</option>
+              <option value="3">no</option>
+              <option value="4">ask me later</option>
             </select>
-          </select>
-
 
 
         <h1>Question 3</h1>
         <p>How comfortable are you with public speaking and being in large groups?</p>
 
             <select id="comfortable">
-              <option value="select">--------Select--------</option>
-              <option value="very comfortable">very comfortable</option>
-              <option value="comfortable">comfortable</option>
-              <option value="semi comfortable">semi comfortable</option>
-              <option value="not comfortable at all">not comfortable at all</option>
+              <option value="0">--Select--</option>
+              <option value="1">very comfortable</option>
+              <option value="2">comfortable</option>
+              <option value="3">semi comfortable</option>
+              <option value="4">not comfortable at all</option>
             </select>
-          </select>
-        </form>
+
 
         <h1>Question 4</h1>
-        <p>Why do you want to code?</p>
-  <div class="well">
-          <div class="col-md-10">
+        <p>Why do you want to code? (Optional)</p>
+          <div class="col-md-8">
             <input id="reason" type="text">
           </div>
-        </div>
 
-      <h1>Question 5</h1>
-        <p>any questions, concerns, or suggestions?</p>
-          <div class="well">
-            <div class="col-md-10">
-        <input id="advice" type="text">
-      </div>
+        <h1>Question 5</h1>
+        <p>Any questions, concerns, or suggestions? (Optional)</p>
+          <div class="col-md-8">
+            <input id="advice" type="text">
+          </div>
 
-<br>
-<button type="submit" class="btn btn-info">Submit</button>
-</form>
+          <br>
 
+          <button type="submit" class="btn btn-info">Submit</button>
+
+        </form>
 
 
 

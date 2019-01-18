@@ -1,11 +1,11 @@
-# Jasmine Lee's Portfolio
+# Jasmine Lee's Questionnaire
 
-#### Week 1 Independent Project demonstrating concepts learned, January 11, 2019
+#### Week 2 Independent Project Regarding Tracking Suggester, January 11, 2019
 
 #### By Jasmine Lee
 
 ## Description
-This is the second project I created as part my portfolio. 
+This is the second project I created as part my portfolio.
 
 ## Setup/Installation Requirements
 
@@ -28,6 +28,7 @@ Contact:
 * Atom
 * HTML
 * css
+* JavaScript
 
 ### License
 

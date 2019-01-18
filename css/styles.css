@@ -2,19 +2,24 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   text-align: center;
 }
 
 #name {
   text-align: center;
+  left: 80%;
 
 }
 button {
   text-align: center;
 }
 
-.well {
+.advice {
   border: 200px;
   text-align: center;
   height: 50px;
@@ -30,7 +35,7 @@ input {
 }
 
 body {
-  background-color: blue;
+
 }
 
 #dream {
@@ -44,4 +49,8 @@ button {
 
 .questions {
   margin: 30px;
+}
+
+#working-end {
+  text-align: center;
 }
