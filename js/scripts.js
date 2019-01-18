@@ -1,5 +1,9 @@
 $(document).ready(function() {
   $("#questionnaire").submit(function(event) {
+$(".click").click(function() {
+    $("#codes-showing").fadeIn();
+    $("#codes-hiding").fadeOut();
+  });
 
     var q1 = $("#company").val();
 
@@ -10,10 +14,11 @@ $(document).ready(function() {
 
     var answer = function() {
       if ((q1 == 0) && (q2 == 0) && (q3 == 0)) {
-        return "works";
+        return ".C";
       }
       else if ((q1 == 1) && (q2 == 0) && (q3 == 0)) {
         return "works";
+        $((q1 == 1) && (q2 == 0) && (q3 == 0)) {
       }
       else if ((q1 == 2) && (q2 == 0) && (q3 == 0)) {
         return "works";

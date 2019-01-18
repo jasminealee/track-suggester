@@ -1,13 +1,5 @@
-h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-p {
-  text-align: center;
+#company, #working-end, #comfortable{
+  display: all;
 }
 
 #name {
@@ -19,13 +11,14 @@ button {
   text-align: center;
 }
 
-.advice {
-  border: 200px;
+#advice {
+
   text-align: center;
-  height: 50px;
+
 }
 
 input {
+  text-align: center;
   width: 500px;
   height: 20px;
 }
@@ -35,17 +28,10 @@ input {
 }
 
 body {
-
+background-color: red;
+float: left;
 }
 
-#dream {
-  align-self: center;
-}
-
-button {
-  align-self: center;
-
-}
 
 .questions {
   margin: 30px;
@@ -53,4 +39,25 @@ button {
 
 #working-end {
   text-align: center;
+}
+
+h2 {
+  left: 10px;
+}
+
+.last-two {
+  text-align: left;
+}
+
+.click {
+  cursor: pointer;
+  color: blue;
+}
+
+.click:hover {
+  text-decoration: underline;
+}
+
+#code-showing {
+  display: none;
 }
