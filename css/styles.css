@@ -8,13 +8,14 @@ p {
 
 #name {
   text-align: center;
+
 }
 button {
   text-align: center;
 }
 
 .well {
-  border: 100px;
+  border: 200px;
   text-align: center;
   height: 50px;
 }
@@ -38,4 +39,9 @@ body {
 
 button {
   align-self: center;
+
+}
+
+.questions {
+  margin: 30px;
 }
