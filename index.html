@@ -9,89 +9,54 @@
   </head>
   <body>
     <div class="container">
+      <h1>What Track Should You Decide?</h1>
+      <form id="questionnaire">
 
-
-      <div id="codes-showing">
-
-        <p>Here is some code for motivation. <span =class="click">Click here </span> to hide the code</p>
-      </div>
-      <div id="codes-hidden">
-
-        <p>Here is some code for motivation. <span =class="click">Click here </span> to see the code</p>
-
-      </div>
-      <img src="img/codes.jpg">
-<h1>What Track Should You Decide?</h1>
-
-  <form id="questionnaire">
         <h3>Enter Name:</h3>
-      <input id="name" type="text">
+        <input type="text">
 
         <br>
 
-      <h2>Question 1</h2>
+        <h2>Question 1</h2>
         <p>What is your dream company to work for?</p>
-
-            <select id="company">
-              <option value="0">--Select--</option>
-              <option value="1">Nordstrom</option>
-              <option value="2">Google</option>
-              <option value="3">Amazon</option>
-              <option value="0">Dropbox</option>
-            </select>
-
+        <select>
+          <option value="0">--Select--</option>
+          <option value="1">Nordstrom</option>
+          <option value="2">Google</option>
+          <option value="3">Amazon</option>
+          <option value="4">Dropbox</option>
+        </select>
 
         <h2>Question 2</h2>
         <p>Are you comforable working in both the front end and back end?</p>
-
-            <select id="working-end">
-              <option value="0">--Select--</option>
-              <option value="1">yes</option>
-              <option value="2">maybe</option>
-              <option value="3">no</option>
-              <option value="4">ask me later</option>
-            </select>
-
+        <select id="working-end">
+          <option value="0">--Select--</option>
+          <option value="1">yes</option>
+          <option value="2">only front end</option>
+          <option value="3">only back end</option>
+        </select>
 
         <h2>Question 3</h2>
         <p>How comfortable are you with public speaking and being in large groups?</p>
+        <select>
+          <option value="0">--Select--</option>
+          <option value="1">very comfortable</option>
+          <option value="2">comfortable</option>
+          <option value="3">semi comfortable</option>
+          <option value="4">not comfortable at all</option>
+        </select>
 
-            <select id="comfortable">
-              <option value="0">--Select--</option>
-              <option value="1">very comfortable</option>
-              <option value="2">comfortable</option>
-              <option value="3">semi comfortable</option>
-              <option value="4">not comfortable at all</option>
-            </select>
+        <h2>Question 4</h2>
+        <p>Why do you want to code? (Optional)</p>
+        <input type="text">
 
+        <h2>Question 5</h2>
+        <p>Why do you want to code? (Optional)</p>
+        <input type="text">
 
-        <div class="last-two">
-          <h2>Question 4</h2>
-          <p>Why do you want to code? (Optional)</p>
-            <div class="col-md-8">
-              <input id="reason" type="text">
-          <h2>Question5</h2>
-          <p>Why do you want to code? (Optional)</p>
-            <div class="col-md-8">
-              <input id="advice" type="text">
-            </div>
-            </div>
-        </div>
-
-
-          <br>
-
-
-          <button type="submit" class="btn btn-info">Submit</button>
-
-        </form>
-
-
-        <div class= C#>
-          <p>According to your answers, you should learn C#. It is one of the most common languages used in coding. Specifically, in large businesses with over 500 employees.</p>  
-        </div>
-
-
+        <br>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
     </div>
   </body>
 </html>

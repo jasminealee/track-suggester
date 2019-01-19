@@ -9,6 +9,7 @@
 }
 button {
   text-align: center;
+  margin-top: 20px;
 }
 
 #advice {
@@ -47,17 +48,4 @@ h2 {
 
 .last-two {
   text-align: left;
-}
-
-.click {
-  cursor: pointer;
-  color: blue;
-}
-
-.click:hover {
-  text-decoration: underline;
-}
-
-#code-showing {
-  display: none;
 }
