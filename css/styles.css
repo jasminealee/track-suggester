@@ -1,5 +1,5 @@
-#company, #working-end, #comfortable{
-  display: all;
+#java  {
+  display: none;
 }
 
 #name {
@@ -12,10 +12,17 @@ button {
   margin-top: 20px;
 }
 
-#advice {
+#company {
 
   text-align: center;
+}
 
+#working-end {
+  text-align: center;
+}
+
+#comfortable {
+  text-align: center;
 }
 
 input {
@@ -24,23 +31,15 @@ input {
   height: 20px;
 }
 
-#reason {
-  text align: center;
-}
-
 body {
-background-color: red;
+background-color: lightblue;
 float: left;
 }
-
 
 .questions {
   margin: 30px;
 }
 
-#working-end {
-  text-align: center;
-}
 
 h2 {
   left: 10px;
