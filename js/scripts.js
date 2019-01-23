@@ -3,7 +3,7 @@ $(document).ready(function() {
     var q2 = $("#working-end").val();
     var q5 = $("#ready").val();
 
-    if (q2 == 0 || q5 == 0 || q5 == 2) {
+    if (q1 == 0 || q2 == 0 || q5 == 0 || q5 == 2) {
       alert("Please reread carefully and answer all multiple choice questions.");
     }
     else if (q2 == 1) {
@@ -21,6 +21,7 @@ $(document).ready(function() {
     else if (q5 == 2) {
       alert("works4");
     }
+
     else {
       alert("error");
     }
