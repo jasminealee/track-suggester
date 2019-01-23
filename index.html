@@ -9,55 +9,46 @@
   </head>
   <body>
     <div class="container">
-      <h1>What Track Should You Decide?</h1>
+      <h1>What Track Language Should You Learn?</h1>
       <form id="questionnaire">
 
-        <img src="img/java.png" id="java">
+        <img src="img/java.png" alt="picture of java" id="java">
 
         <h3>Enter Name:</h3>
         <input type="text">
 
-        <br>
 
         <h2>Question 1</h2>
-        <p>What is your dream company to work for?</p>
-        <select id="company">
-          <option value="0">--Select--</option>
-          <option value="1">Nordstrom</option>
-          <option value="2">Google</option>
-          <option value="3">Amazon</option>
-          <option value="4">Dropbox</option>
-        </select>
+        <p>What company would you like to work for?</p>
+        <input type="text">
 
         <h2>Question 2</h2>
-        <p>Are you comforable working in both the front end and back end?</p>
+        <p>Would you like to work in the front end or back end?</p>
         <select id="working-end">
           <option value="0">--Select--</option>
-          <option value="1">Yes</option>
-          <option value="2">Only Front End</option>
-          <option value="3">Only Back End</option>
+          <option value="1">Front End</option>
+          <option value="2">Back End</option>
         </select>
 
         <h2>Question 3</h2>
-        <p>How comfortable are you with public speaking and being in large groups?</p>
-        <select id="comfortable">
-          <option value="0">--Select--</option>
-          <option value="1">Very Comfortable</option>
-          <option value="2">Comfortable</option>
-          <option value="3">Semi Comfortable</option>
-          <option value="4">Not Comfortable At All</option>
-        </select>
+        <p>What is your favorite animal? (Optional)</p>
+        <input type="text">
 
         <h2>Question 4</h2>
         <p>Why do you want to code? (Optional)</p>
         <input type="text">
 
         <h2>Question 5</h2>
-        <p>Why do you want to code? (Optional)</p>
-        <input type="text">
+        <p>Are you ready to submit your answers?</p>
+        <select id="ready">
+          <option value="0">--Select--</option>
+          <option value="1">--Yes--</option>
+          <option value="2">--No--</option>
+        </select>
 
-        <br>
-        <button type="submit" class="btn btn-info">Submit</button>
+        <button type="Submit" class="btn btn-info">Submit</button>
+        <button type="Submit" class="btn btn-info">New Page</button>
+
       </form>
     </div>
   </body>

@@ -1,27 +1,24 @@
-#java  {
-  display: none;
-}
-
 #name {
   text-align: center;
   left: 80%;
+}
+#java {
+  display: none;
+}
 
+#java {
+  display: none;
 }
 button {
   text-align: center;
-  margin-top: 20px;
-}
-
-#company {
-
-  text-align: center;
+  margin-top: 60px;
 }
 
 #working-end {
   text-align: center;
 }
 
-#comfortable {
+#ready {
   text-align: center;
 }
 
