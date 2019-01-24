@@ -2,12 +2,9 @@
   text-align: center;
   left: 80%;
 }
-#java {
+#java, #ruby, #c {
   display: none;
-}
 
-#java {
-  display: none;
 }
 button {
   text-align: center;
