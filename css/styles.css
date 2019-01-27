@@ -1,5 +1,16 @@
-#name {
-  left: 80%;
+body {
+background-color: lightblue;
+float: left;
+}
+
+h2 {
+  left: 20px;
+}
+
+input {
+  text-align: center;
+  width: 500px;
+  height: 30px;
 }
 
 #java, #ruby, #c {
@@ -7,8 +18,7 @@
 }
 
 button {
-  text-align: center;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 #working-end {
@@ -19,26 +29,6 @@ button {
   text-align: center;
 }
 
-input {
-  text-align: center;
-  width: 500px;
-  height: 30px;
-}
-
-body {
-background-color: lightblue;
-float: left;
-}
-
 .questions {
   margin: 30px;
-}
-
-
-h2 {
-  left: 10px;
-}
-
-.last-two {
-  text-align: left;
 }

@@ -5,13 +5,13 @@
 #### By Jasmine Lee
 
 ## Description
-This is the second project I created as part my portfolio. The page asks the user various questions. The answers the user submits will compile together and suggest the specific coding language the user should learn.
+This is the second project I created as part my independent projects list. The page asks the user various questions. The answers the user submits will compile together and suggest the specific coding language the user should learn.
 
 ## Setup/Installation Requirements
 
-* Open GitHub and go to https://github.com/jasminealee/track-suggester click "clone or download"; copy the url provided
-* Go to Terminal and clone the folder by typing "git clone <repository url>" then enter
-* Open the folder in atom or your choice of text editor or
+* Open GitHub and go to https://github.com/jasminealee/track-suggester click "clone or download"; copy the url provided.
+* Go to Terminal and clone the folder by typing "git clone (repository url)" then enter.
+* Open the folder in atom or your choice of text editor.
 * Or go to view the project at https://jasminealee.github.io/track-suggester/
 
 ## Known Bugs
@@ -27,11 +27,11 @@ Contact: jasmine.al1722@gmail.com
 * Terminal
 * Atom
 * HTML
-* css
+* CSS
 * JavaScript
 
 ### License
 
 MIT
 
-Copyright (c) 2019
+Copyright (c) 2019 Jasmine Lee
